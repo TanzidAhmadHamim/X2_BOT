@@ -15,7 +15,7 @@ node sakibin/catalogs/sakibina.js
 ## CREDITS
 
 original file : [BotPack](https://replit.com/@YanMaglinte/BotPack?v=1) by ```YanMaglinte```</br>
-modified : [sakibin](https://replit.com/@H4M1MX2) by ```Hamim Developer```</br>
+modified : [HamimX2](https://replit.com/@H4M1MX2) by ```Hamim Developer```</br>
 fca : [ws3-fca](https://www.npmjs.com/package/ws3-fca) by ```Kenneth Aceberos```
 
 ## UPDATES
