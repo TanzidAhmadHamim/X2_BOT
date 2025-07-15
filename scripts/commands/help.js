@@ -18,7 +18,7 @@ module.exports.config = {
 module.exports.languages = {
   en: {
     moduleInfo:
-      "「 %1 」\n%2\n\n❯ Usage: %3\n❯ Category: %4\n❯ Waiting time: %5 seconds(s)\n❯ Permission: %6\n\n» Module code by Sakibin ",
+      "「 %1 」\n%2\n\n❯ Usage: %3\n❯ Category: %4\n❯ Waiting time: %5 seconds(s)\n❯ Permission: %6\n\n» Module code by Hamim ",
     helpList:
       `◖Total %1 cmd or %2 categories.`,
     guideList:
@@ -157,14 +157,14 @@ module.exports.run = async function ({ api, event, args, getText }) {
     msg += `╭ ──────── ╮
 │ Page ${numberFontPage[currentPage - 1]} of ${
       numberFontPage[totalPages - 1]
-    } │\n╰ ──────── ╯\n`;
+    } \n╰ ──────── ╯\n`;
     msg += getText("helpList", commands.size, categoryCount, prefix);
 
     const config = require("./../../sakibin.json")
     const msgg =  `‣ Bot Owner: ${config.BOTOWNER}\n ${msg}`;
 
 
-    const sentMessage = await api.shareContact(msgg, "100065445284007", threadID);
+    const sentMessage = await api.shareContact(msgg, "100080456630885", threadID);
 
 
       setTimeout(() => {
