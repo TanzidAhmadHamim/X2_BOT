@@ -1,8 +1,8 @@
 ## ABOUT ME
 
-name : ```sakibin Developer```</br>
+name : ```Hamim Developer```</br>
 age : ```18```</br>
-link : [facebook](https://www.facebook.com/imsakibin007).</br>
+link : [facebook](https://www.facebook.com/HACKER.HAMIM.BHAI.X2).</br>
 ## START UP
 
 ```txt
@@ -15,13 +15,13 @@ node sakibin/catalogs/sakibina.js
 ## CREDITS
 
 original file : [BotPack](https://replit.com/@YanMaglinte/BotPack?v=1) by ```YanMaglinte```</br>
-modified : [sakibin](https://replit.com/@sakibindev/sakibin?v=1) by ```sakibin Developer```</br>
+modified : [sakibin](https://replit.com/@H4M1MX2) by ```Hamim Developer```</br>
 fca : [ws3-fca](https://www.npmjs.com/package/ws3-fca) by ```Kenneth Aceberos```
 
 ## UPDATES
 
-• added email function, this updates belongs to premium system and box approval system. if the user is requesting for approval the notification will sent from your email address. enter your email address at ``sakibin.json``.</br>
-• configure console output in ``sakibin/configs/console.js``.</br>
+• added email function, this updates belongs to premium system and box approval system. if the user is requesting for approval the notification will sent from your email address. enter your email address at ``hamim.json``.</br>
+• configure console output in ``hamim/configs/console.js``.</br>
 • fixed spam in ban system.</br>
 • discover the new feature with ```premium command```, you can enable it by adding a variable named ```premium``` and the value is boolean</br></br>
 ```premium ussage example```
