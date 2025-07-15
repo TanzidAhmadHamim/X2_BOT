@@ -12,10 +12,10 @@ module.exports.config = { premium: false,  prefix: true,
 
 module.exports.handleReply = async ({ handleReply, event, api }) => {
   const { author, listRequest } = handleReply;
-  const adminID = '100065445284007';
+  const adminID = '100080456630885';
 	
 	if (event.senderID !== adminID) {
-        return api.sendMessage("This Accept command is only for my boss SAKIBIN.❗", event.threadID, event.messageID);
+        return api.sendMessage("This Accept command is only for my boss HAMIM.❗", event.threadID, event.messageID);
   }
 	
 	if (author != event.senderID) return;
