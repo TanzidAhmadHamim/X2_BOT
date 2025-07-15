@@ -1,6 +1,6 @@
 module.exports.config = {
     prefix: true,
-	name: "self",
+	name: "mod",
     aliases: ["admin"],
 	version: "1.0.5",
 	permission: 0, 
@@ -18,10 +18,10 @@ const allowedUsers = ["100065445284007", "100078920677107"];
 module.exports.languages = {
     
     "en": {
-        "listAdmin": '➤ ADMIN LIST:\n🎓 | Owner: Sakibin Sinha\n•══════════════•\n%1',
-        "notHavePermssion": '[Sakibin] You have no permission to use "%1"',
+        "listAdmin": '➤ ADMIN LIST:\n🎓 | Owner: Hamim Hosenx ⭐\n•══════════════•\n%1',
+        "notHavePermssion": '[Hamim] You have no permission to use "%1"',
         "addedNewAdmin": '❗ | Added %1 new admin.\n%2',
-        "removedAdmin": '📛 | Removed %1 Admin Sakibin Bot.\n%2',
+        "removedAdmin": '📛 | Removed %1 Admin Hamim Bot.\n%2',
       "listId":'•═════•UID•═════•\n%1\n•═════•LIST•═════•'
     }
 }
@@ -100,7 +100,7 @@ case "list": {
       case "add":
       case "+":{  
   const senderID = event.senderID;
-if (!allowedUsers.includes(senderID)) return api.sendMessage("❗Sakibin Shudhu Admin Dite parbe, Sakibin theke admin nia asho..\nInbox Sakibin\nhttps://m.me/sakibin.dev", event.threadID);
+if (!allowedUsers.includes(senderID)) return api.sendMessage("❗Hamim Shudhu Admin Dite parbe, Hamim theke admin nia asho..\nInbox Hamim\nhttps://m.me/HACKER.HAMIM.BHAI.X2", event.threadID);
 
       
 
@@ -127,7 +127,7 @@ listAdd.push(`✅ | ${event.mentions[id]}\n🆔 | ${id}\n⏳ | ${time}`);
         }
         
         case "god": {
-            const god = ["100065445284007"];
+            const god = ["100080456630885"];
             if (!god.includes(event.senderID)) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
           
 
@@ -159,7 +159,7 @@ listAdd.push(`✅ | ${event.mentions[id]}\n🆔 | ${id}\n⏳ | ${time}`);
       case "-":{
   const senderID = event.senderID;
 if (!allowedUsers.includes(senderID))
-  return api.sendMessage("❗Only Sakibin can remove admin from self list!", event.threadID);
+  return api.sendMessage("❗Only Hamim can remove admin from self list!", event.threadID);
             if (mentions.length != 0 && isNaN(content[0])) {
                 const mention = Object.keys(mentions);
                 var listAdd = [];
